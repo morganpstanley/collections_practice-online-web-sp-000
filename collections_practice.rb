@@ -36,10 +36,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  nope = array[1]
   array.each do |num|
     num << "s"
   end
-  array[1] = nope
-  array
 end
