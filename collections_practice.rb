@@ -40,4 +40,5 @@ def add_s(array)
     if num != feet
     num << "s"
   end
+  end
 end
