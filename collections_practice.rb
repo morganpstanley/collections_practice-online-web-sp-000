@@ -36,9 +36,9 @@ def sum_array(array)
 end
 
 def add_s(array)
+  nope = array[1]
   array.each do |num|
-    if num != "feet"
     num << "s"
   end
-  end
+  array[1] = nope
 end
