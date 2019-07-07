@@ -37,7 +37,7 @@ end
 
 def add_s(array)
   array.each do |num|
+    if num != feet
     num << "s"
   end
-  array[1].last.slice
 end
