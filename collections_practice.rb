@@ -39,6 +39,6 @@ def add_s(array)
   array.each do |num|
     num << "s"
   end
-  array[1].last.delete
+  array[1].chomp.end
   array
 end
