@@ -26,7 +26,7 @@ def kesha_maker(array)
     name.sub(name[3], $)
   end
 end
-  
+
 end
 
 def find_a(array)
@@ -38,4 +38,3 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
