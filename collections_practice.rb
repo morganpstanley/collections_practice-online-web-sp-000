@@ -41,4 +41,5 @@ def add_s(array)
     num << "s"
   end
   array[1] = nope
+  array
 end
